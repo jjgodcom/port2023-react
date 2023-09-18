@@ -2,14 +2,7 @@ import React from "react";
 
 import about from "../assets/img/about.jpg"; // 이미지를 사용할때는 import 해야함
 
-const introText = {
-  title: "port developer",
-  desc: [
-    "talent is",
-    "found at the end of the",
-    "effort"
-  ]
-}
+import { introText } from "../constants";
 
 const Intro = () => {
     return (
