@@ -5,8 +5,8 @@ const Footer = () => {
         <footer id="footer" role="contentinfo">
             <div className="footer__inner">
                 <h2 className="footer__text">
-                    <div>webstoryboy</div>
-                    <div>@webs</div>
+                    <div>jjgodcom</div>
+                    <div>@frontDev</div>
                 </h2>
                 <div className="footer__right">
                     &copy; 2023 webstoryboy<br />
