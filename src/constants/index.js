@@ -39,8 +39,8 @@ export const introText = {
 
 export const skillText = [
     {
-        title: "꿈을 설계하고 디자인하다.",
-        desc: "나는 공간을 만드는 것을 좋아한다. 어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다."
+        title: "개발에 빠져들다.",
+        desc: "나는 아무것도 할 줄 모르던 상태에서 처음으로 개발에 도전하게 되었다. 그동안은 항상 사용만 해왔지만, 이제는 내 손으로 화면을 구현할 때마다 흥미를 느낀다. 앞으로도 계속해서 개발을 하면서 성장해가고, 나를 위한 블로그를 만들어보는 등 새로운 도전을 하며 살고 싶다. 개발은 끊임없이 발전하고 변화하기 때문에, 새로운 기술과 도구를 익히며 스스로를 계속해서 발전시킬 것이다."
     },
     {
         title: "열심히 할수록 기회는 따른다.",
@@ -54,49 +54,38 @@ export const skillText = [
 
 export const siteText = [
     {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vite",
-        view: "https://port2023-vite.netlify.app",
+        text: ["make", "site compliant with", "vue.js"],
+        title: "뷰를 이용한 블로그 제작",
+        code: "https://github.com/jjgodcom/vue-jjgodcom.com",
+        view: "https://jjgodcom-vue.netlify.app/#/",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
+            "",
+            "use stack : HTML5/CSS3, Webpack, vue",
         ],
     },
     {
         text: ["make", "site compliant with", "react.js"],
         title: "리액트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-react",
-        view: "https://port2023-react.netlify.app",
+        code: "https://github.com/jjgodcom/react-jjgodcom.com",
+        view: "https://jjgodcom-react.netlify.app",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, react",
+            "",
+            "use stack : HTML5/CSS3, Webpack, reactㅅㅅ",
         ],
     },
     {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vue",
-        view: "https://port2023-vue.netlify.app",
+        text: ["make", "site compliant with", "webstandard"],
+        title: "HTML를 이용한 사이트 제작",
+        code: "https://github.com/jjgodcom/jjgodcom.com",
+        view: "https://jjgodcom-ftp.netlify.app/",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
+            "",
+            "use stack : HTML5/CSS3, Webpack",
         ],
-    },
-    {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-next",
-        view: "https://port2023-next.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
-        ],
-    },
+    }
 ];
 
 export const portText = [

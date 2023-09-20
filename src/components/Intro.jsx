@@ -1,6 +1,6 @@
 import React from "react";
 
-import about from "../assets/img/about.jpg"; // 이미지를 사용할때는 import 해야함
+import about from "../assets/img/parksuho.png"; // 이미지를 사용할때는 import 해야함
 
 import { introText } from "../constants";
 
