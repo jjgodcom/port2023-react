@@ -72,7 +72,7 @@ export const siteText = [
         info: [
             "site coding",
             "",
-            "use stack : HTML5/CSS3, Webpack, reactㅅㅅ",
+            "use stack : HTML5/CSS3, Webpack, react",
         ],
     },
     {
