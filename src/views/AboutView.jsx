@@ -1,8 +1,22 @@
 import React from 'react'
+import "../assets/scss/section/testHeader.scss"
 
 const AboutView = () => {
   return (
-    <div>AboutView</div>
+    <header id="test">
+      <div className="test__inner">
+        <div className="test__logo">logo</div>
+        <div className="test__nav">
+          <ul>
+            <li>INTRO</li>
+            <li>SKILL</li>
+            <li>SITE</li>
+            <li>PORTFOLIO</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </div>
+    </header>
   )
 }
 

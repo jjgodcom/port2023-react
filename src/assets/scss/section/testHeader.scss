@@ -1,0 +1,19 @@
+#test {
+  background-color: #fff;
+  padding: 15px;
+  .test__inner {
+    display: flex;
+    justify-content: space-between;
+    .test__nav {
+      ul {
+        display: flex;
+        li {
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
