@@ -1,4 +1,7 @@
 #test {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #fff;
   padding: 15px;
   .test__inner {
@@ -13,6 +16,207 @@
             margin-right: 0;
           }
         }
+      }
+    }
+  }
+}
+
+
+#footer {
+  font-family: var(--mainKor-font);
+}
+.footer__inner {
+  padding: 16px;
+
+  .footer__text {
+      font-size: 12px;
+      text-transform: uppercase;
+      border-top: 1px solid var(--black);
+      border-bottom: 1px solid var(--black);
+      display: flex;
+      justify-content: space-between;
+  }
+  .footer__info {
+      display: flex;
+      justify-content: space-between;
+      margin: 100px 0;
+
+      @media (max-width: 800px){
+          flex-direction: column;
+      }
+
+      .left {
+          width: 40%;
+
+          @media (max-width: 800px){
+              width: 100%;
+          }
+
+          .title {
+              border-top: 2px solid var(--black);
+              border-bottom: 1px solid var(--black);
+              padding: 20px 0;
+              text-transform: uppercase;
+              font-weight: 700;
+              background: url(../../img/arrow.svg) no-repeat right 20px;
+              transition: all 0.3s;
+
+              &:hover {
+                  background-color: var(--black400);
+                  padding-left: 10px;
+                  border-color: transparent;  
+              }
+          }
+          .desc {
+              font-size: 12px;
+              padding-top: 20px;
+
+              @media (max-width: 800px){
+                  margin-bottom: 40px;
+              }
+          }
+      }
+
+      .right {
+          width: 50%;
+
+          @media (max-width: 800px){
+              width: 100%;
+          }
+
+          h3 {
+              border-top: 2px solid var(--black);
+              font-size: 10px;
+              margin-bottom: 40px;
+              padding-top: 10px;
+          }
+          ul {
+              border-top: 1px solid var(--black);
+
+              li {
+                  border-bottom: 1px solid var(--black);
+
+                  a {
+                      padding: 14px 0;
+                      font-size: 14px;
+                      display: inline-block;
+                      text-transform: uppercase;
+                  }
+                  em {
+                      font-size: 12px;
+                      padding-left: 10px;
+                      opacity: 0;
+                      transition: all 0.3s;
+                  }
+
+                  &:hover {
+                      em {
+                          opacity: 1;
+                      }
+                  }
+              }
+          }
+      }
+  }
+  .footer__right {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+#demo,
+#demo2 {
+  padding-top: 60px;
+  .demo__inner {
+    padding: 16px;
+    height: 100vh;
+    .demo__title {
+      position: sticky;
+      top: 70px;
+      left: 0;
+      width: 48%;
+      height: 5vw;
+      font-size: 4vw;
+      font-weight: 900;
+      line-height: 1.6;
+    }
+  }
+}
+
+#demo3 {
+  .demo__inner {
+    padding: 16px;
+    .demo__title {
+      position: sticky;
+      top: 70px;
+      left: 0;
+      width: 48%;
+      height: 5vw;
+      font-size: 4vw;
+      font-weight: 900;
+      line-height: 1.6;
+      margin-bottom: 100px;
+    }
+
+    .demo_warp {
+      article {
+        width: 100%;
+        height: 25vh;
+        position: sticky;
+
+        &:nth-child(1){
+          background-color: #101010;
+          top: 200px;
+        }
+        &:nth-child(2){
+          background-color: #8e7676;
+          top: 230px;
+        }
+        &:nth-child(3){
+          background-color: #8bac76;
+          top: 260px;
+        }
+        &:nth-child(4){
+          background-color: #bc7bab;
+          top: 290px;
+        }
+
+      }
+    }
+  }
+}
+
+
+#demo4 {
+  padding-top: 60px;
+  .demo__inner {
+    padding: 16px;
+    height: 100vh;
+    .demo__title {
+      width: 48%;
+      height: 5vw;
+      font-size: 4vw;
+      font-weight: 900;
+      line-height: 1.6;
+      margin-bottom: 100px;
+    }
+
+    .demo_warp {
+      width: 200%;
+      height: 50vh;
+      display: flex;
+      flex-wrap: nowrap;
+      overscroll-behavior: none;
+
+      .demo__port__item {
+        width: 50%;
+        border: 1px solid #ccc;
       }
     }
   }
